@@ -16,6 +16,7 @@ let b:did_ftplugin = 1
 
 "setlocal iskeyword+=-
 "setlocal commentstring=//\ %s
+setlocal commentstring="@*%s*@"
 "setlocal define=^\\s*\\%(@mixin\\\|=\\)
 "setlocal includeexpr=substitute(v:fname,'\\%(.*/\\\|^\\)\\zs','_','')
 "setlocal omnifunc=csscomplete#CompleteCSS
